@@ -23,10 +23,10 @@ Requirement. 2
 
 NOTE:
 
-a. Python does not provide a switch case statement, but it offers few workarounds to
+ * Python does not provide a switch case statement, but it offers few workarounds to
 make this statement work like The (if-else conditions).
 
-b. The program should accept data(input) from the user.
+* The program should accept data(input) from the user.
 
-c. Let your program generate summary of the student report including the students
+* Let your program generate summary of the student report including the students
 full name, department and course of study.
