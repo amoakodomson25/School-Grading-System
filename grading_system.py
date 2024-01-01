@@ -6,7 +6,8 @@ Student_Department = input("Enter student's department: ")
 Student_course = input("Enter student's course of study: ")
 
 # Checking if student has paid their fees
-Fees_Paid = input("Have You Paid Your Fees(100)? (Y/N): ")
+# With the lower method, the string input gets automatically converted to a lowercase
+Fees_Paid = input("Have You Paid Your Fees(100)? (Y/N): ").lower() 
 
 # Scores input
 Exam_score = int(input("Enter Exam Score: "))
@@ -22,18 +23,18 @@ print("Course: "+ Student_course)
 print(" ")
 # Setting the requirements
 # If a student has their paid fees; Check their scores to see if they can get certified
-if Fees_Paid == "Y" or Fees_Paid == "y":
+if Fees_Paid == "y": # The lower function just made the code simpler and more readable
     if 39 > (Assessment_score + Exam_score):
         if Exam_score < 25:
-            print("Failed: Exams score is below past mark")
+            print("Failed: Exams score is below pass mark")
         if Assessment_score < 15:
-            print("Failed: Assessment score is below past mark")
+            print("Failed: Assessment score is below pass mark")
         if (Exam_score < 25) and (Assessment_score < 15):
             print("Hence, this student is repeated.")
     else:
         print("Student can get certificate")
 # If the student has not paid their fees;
-else:
+else: 
     print("Student has not paid fees")
 print("==========================================================================")
 
