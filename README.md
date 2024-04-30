@@ -13,7 +13,7 @@ student is condoned.
 3. If a student satisfy either Requirement 1 or Requirement. 2 and have paid their fees in full
 (where fee is 100), they are issued with a certificate.
 
-4. A student is deemed to have failed if he/she does not meet Requirement. 1 or
+4. A student is deemed to have failed if he/she does not meet Requirement. 1 and
 Requirement. 2
 
 5. However, your program must inform a student which component he/ she passed/failed.
