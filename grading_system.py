@@ -10,7 +10,7 @@ Student_course = input("Enter student's course of study: ")
 # Checking if student has paid their fees
 while True:
     Fees_Paid = input("Have You Paid Your Fees(100)? (Y/N): ")
-    if Fees_Paid.lower() in ["Y","y","N","n","YES","No"]:
+    if Fees_Paid.lower() in ["y","n","yes","no"]:
         # Scores input
         Exam_score = int(input("Enter Exam Score: "))
         Assessment_score = int(input("Enter Assessment Score: "))
