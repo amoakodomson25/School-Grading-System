@@ -28,7 +28,7 @@ print("Course: "+ Student_course)
 print(" ")
 # Setting the requirements
 # If a student has their paid fees; Check their scores to see if they can get certified
-if Fees_Paid == "Y" or Fees_Paid == "y":
+if Fees_Paid == "y":
         if 39 > (Assessment_score + Exam_score):
             if Exam_score < 25:
                 print("Failed: Exams score is below past mark")
